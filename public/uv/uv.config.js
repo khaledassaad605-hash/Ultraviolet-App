@@ -3,8 +3,8 @@
 self.__uv$config = {
 	prefix: "/uv/service/",
 	wisp: "wss://wisp.mercurynetwork.co/", // Added public backend relay line
-	encodeUrl: Ultraviolet.codec.xor.encode,
-	decodeUrl: Ultraviolet.codec.xor.decode,
+	encodeUrl: ultraviolet.codec.xor.encode,
+	decodeUrl: ultraviolet.codec.xor.decode,
 	handler: "/uv/uv.handler.js",
 	client: "/uv/uv.client.js",
 	bundle: "/uv/uv.bundle.js",
